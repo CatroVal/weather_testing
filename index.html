@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="styles.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <title>Weather-Testing</title>
+   </head>
+   <body>
+      <div class="app-wrap">
+         <header>
+            <input type="text" id="search-bar" placeholder="Search for a location...">
+         </header>
+         <main>
+            <section class="location">
+               <div class="city">Madrid, ES</div>
+               <div class="date">Tuesday 27 October 2020</div>
+            </section>
+               <div class="current">
+               <div class="temp">15<span>°c</span></div>
+               <div class="icon-container">
+                  <img id="icon" src="images/clear-icon.png" alt="weather icon">
+               </div>
+               <div class="weather">Sunny</div>
+               <div class="min-max">6°c / 18°c</div>
+            </div>
+         </main>
+      </div>
+
+      <script src="app.js"></script>
+   </body>
+</html>

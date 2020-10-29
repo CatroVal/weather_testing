@@ -1,0 +1,93 @@
+* {
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: Ubuntu, 'Helvetica Neue', Arial, sans-serif;
+   background-image: url('images/weather-bg001.jpg');
+   background-size: cover;
+   background-position: top center;
+}
+
+.app-wrap {
+   display: flex;
+   flex-direction: column;
+   min-height: 100vh;
+   background-image: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.7));
+}
+
+header {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 70px 15px 25px;
+}
+
+header input {
+   width: 100%;
+   max-width: 280px;
+   padding: 10px;
+   border: none;
+   outline: none;
+   border-radius: 15px 1px;
+   background-color: rgba(255,255,255,0.7);
+   color: #313131;
+   font-size: 18px;
+   font-weight: 300;
+}
+
+main {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   flex: 1 1 100%;
+   padding: 25px 25px 50px;
+}
+
+.location .city {
+   color: #fff;
+   font-size: 32px;
+   font-weight: 400;
+   margin-bottom: 5px;
+}
+
+.location .date {
+   color: #fff;
+   font-size: 16px;
+}
+
+.current .temp {
+   color: white;
+   font-size: 95px;
+   font-weight: 800;
+   text-shadow: 3px 8px rgba(0,0,0,0.8);
+   margin: 30px 0px 0px 0px;
+}
+
+.current .temp span {
+   font-weight: 300;
+}
+
+.current .weather {
+   color: #fff;
+   font-size: 30px;
+   font-weight: 400;
+   font-style: italic;
+   text-shadow: 1px 3px rgba(0,0,0,0.6);
+   margin-bottom: 17px;
+   margin-top: 10px;
+}
+
+.current .min-max {
+   color: #fff;
+   font-size: 24px;
+   font-weight: 300;
+   text-shadow: 1px 3px rgba(0,0,0,0.6);
+}
+
+#icon {
+   width: 45%;
+}
